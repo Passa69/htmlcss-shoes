@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
-    font-size: 50px;
     text-align: center;
 }
 
 /* sezioni */
 section {
+    font-size: 30px;
     height: 100vh;
     position: relative;
 }
@@ -42,4 +42,26 @@ section {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* tasti di menù */
+#menù::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#menù {
+    float: right;
+    font-size: 20px;
+    color: black;
+}
+
+.page {
+    display: inline-block;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-style: none;
 }
