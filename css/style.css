@@ -4,4 +4,42 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* sezioni */
+section {
+    height: 100vh;
+    position: relative;
+}
+
+#first {
+    background-color: red;
+    color: yellow;
+}
+
+#second {
+    background-color: green;
+    color: yellow;
+}
+
+#third {
+    background-color: yellow;
+    color: green;
+}
+
+/* centratura */
+.shoes {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
