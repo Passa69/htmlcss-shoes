@@ -50,12 +50,18 @@ section {
     z-index: 100;
     top: 15px;
     right: 15px;
-    font-size: 20px;
 }
-a {
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
     background-color: white;
+}
+
+a {
     color: black;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 50%;
+    font-size: 20px;
 }
